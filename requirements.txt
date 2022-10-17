@@ -1,0 +1,6 @@
+networkx==2.8.6
+numpy==1.23.1
+scikit-learn==1.1.2
+theano==1.0.5
+torchmetrics==0.9.3
+tqdm==4.64.0
