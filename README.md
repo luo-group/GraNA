@@ -1,5 +1,5 @@
 # GraNA
-Supervised biological network alignment with graph neural networks
+This is the official repository for the paper *Supervised biological network alignment with graph neural networks* [[link](https://www.biorxiv.org/content/10.1101/2023.04.24.538184v1)]. **GraNA** is a deep learning framework for supervised biological network alignment (NA). Employing graph neural networks (GNNs), GraNA utilizes within-network interactions and across-network anchor links for learning protein representations and predicting functional correspondence between across-species proteins.
 
 
 ## Install dependencies
