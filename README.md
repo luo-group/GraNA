@@ -1,6 +1,18 @@
 # GraNA
-This is the official repository for the paper *Supervised biological network alignment with graph neural networks* [[link](https://www.biorxiv.org/content/10.1101/2023.04.24.538184v1)]. **GraNA** is a deep learning framework for supervised biological network alignment (NA). Employing graph neural networks (GNNs), GraNA utilizes within-network interactions and across-network anchor links for learning protein representations and predicting functional correspondence between across-species proteins.
+This is the official repository for the paper [**Supervised biological network alignment with graph neural networks**](https://academic.oup.com/bioinformatics/article/39/Supplement_1/i465/7210461) presented at ISMB 2023. **GraNA** is a deep learning framework for supervised biological network alignment (NA). Employing graph neural networks (GNNs), GraNA utilizes within-network interactions and across-network anchor links for learning protein representations and predicting functional correspondence between across-species proteins.
 
+![Overview of GraNA](assets/overview.png)
+
+## Table of contents
+- [GraNA](#grana)
+  - [Table of contents](#table-of-contents)
+  - [Install dependencies](#install-dependencies)
+  - [Download data](#download-data)
+  - [Directories](#directories)
+  - [Load data](#load-data)
+  - [Train GraNA](#train-grana)
+  - [Citation](#citation)
+  - [Contact](#contact)
 
 ## Install dependencies
 ```
@@ -58,3 +70,26 @@ To train GraNA after loading the data, run the following:
 ```
 python train.py
 ```
+
+## Citation
+
+>Kerr Ding, Sheng Wang, Yunan Luo, Supervised biological network alignment with graph neural networks, Bioinformatics, Volume 39, Issue Supplement_1, June 2023, Pages i465–i474, https://doi.org/10.1093/bioinformatics/btad241
+
+```
+@article{10.1093/bioinformatics/btad241,
+    author = {Ding, Kerr and Wang, Sheng and Luo, Yunan},
+    title = "{Supervised biological network alignment with graph neural networks}",
+    journal = {Bioinformatics},
+    volume = {39},
+    number = {Supplement_1},
+    pages = {i465-i474},
+    year = {2023},
+    month = {06},
+    issn = {1367-4811},
+    doi = {10.1093/bioinformatics/btad241}
+}
+```
+
+
+## Contact
+Please submit GitHub issues or contact Kerr Ding (kerrding[at]gatech[dot]edu) and Yunan Luo (yunan[at]gatech[dot]edu) for any questions related to the source code.
